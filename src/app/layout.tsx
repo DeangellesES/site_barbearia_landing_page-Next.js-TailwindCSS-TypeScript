@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Barbearia Navalha de Ouro | Corte, barba e cuidado masculino",
   description:
     "Barbearia tradicional com cortes clássicos e modernos, barba na navalha e atendimento de primeira. Agende seu horário em São Paulo.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

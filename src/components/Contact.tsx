@@ -31,12 +31,13 @@ export default function Contact() {
                 >
                   Chamar no WhatsApp
                 </a>
-                <p
+                <div
                   // href="tel:+5511999990000"
-                  className="rounded-full border border-barbearia-500 px-7 py-3 text-center text-sm font-semibold text-barbearia-100 transition-colors hover:border-barbearia-400 hover:text-barbearia-400"
+                  className="rounded-full border flex gap-2 border-barbearia-500 px-7 py-3 text-center text-sm font-semibold text-barbearia-100 transition-colors hover:border-barbearia-400 hover:text-barbearia-400"
                 >
-                  📞 11 99999-0000
-                </p>
+                  <span>📞</span>
+                  <p>11 99999-0000</p>
+                </div>
               </div>
 
               <div className="mt-8">

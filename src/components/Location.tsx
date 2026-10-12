@@ -35,7 +35,7 @@ export default function Location() {
                   (11) 99999-0000
                 </p>
               </p>
-              <p className="flex items-center gap-3">
+              <div className="flex items-center gap-3">
                 <span className="text-barbearia-400">✉️</span>
                 <p
                   // href="mailto:contato@navalhadeouro.com.br"
@@ -43,7 +43,7 @@ export default function Location() {
                 >
                   contato@navalhadeouro.com.br
                 </p>
-              </p>
+              </div>
             </div>
 
             <div className="mt-8 overflow-hidden rounded-2xl border border-barbearia-800">
