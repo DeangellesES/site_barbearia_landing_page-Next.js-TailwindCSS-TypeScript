@@ -28,21 +28,21 @@ export default function Location() {
               </p>
               <p className="flex items-center gap-3">
                 <span className="text-barbearia-400">📞</span>
-                <a
-                  href="tel:+5511999990000"
+                <p
+                  // href="tel:+5511999990000"
                   className="transition-colors hover:text-barbearia-400"
                 >
                   (11) 99999-0000
-                </a>
+                </p>
               </p>
               <p className="flex items-center gap-3">
                 <span className="text-barbearia-400">✉️</span>
-                <a
-                  href="mailto:contato@navalhadeouro.com.br"
+                <p
+                  // href="mailto:contato@navalhadeouro.com.br"
                   className="transition-colors hover:text-barbearia-400"
                 >
                   contato@navalhadeouro.com.br
-                </a>
+                </p>
               </p>
             </div>
 

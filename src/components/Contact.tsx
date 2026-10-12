@@ -26,16 +26,17 @@ export default function Contact() {
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
                   href="https://wa.me/5511999990000"
+                  target="_blank"
                   className="rounded-full bg-barbearia-500 px-7 py-3 text-center text-sm font-semibold text-barbearia-950 transition-colors hover:bg-barbearia-400"
                 >
                   Chamar no WhatsApp
                 </a>
-                <a
-                  href="tel:+5511999990000"
+                <p
+                  // href="tel:+5511999990000"
                   className="rounded-full border border-barbearia-500 px-7 py-3 text-center text-sm font-semibold text-barbearia-100 transition-colors hover:border-barbearia-400 hover:text-barbearia-400"
                 >
-                  (11) 99999-0000
-                </a>
+                  📞 11 99999-0000
+                </p>
               </div>
 
               <div className="mt-8">
@@ -44,16 +45,16 @@ export default function Contact() {
                 </p>
                 <div className="mt-3 flex flex-wrap gap-3">
                   {redes.map((rede) => (
-                    <a
+                    <p
                       key={rede.nome}
-                      href={rede.href}
-                      target="_blank"
+                      // href={rede.href}
+                      // target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 rounded-full border border-barbearia-700 bg-barbearia-950/60 px-4 py-2 text-sm text-barbearia-200 transition-colors hover:border-barbearia-400 hover:text-barbearia-400"
                     >
                       <span aria-hidden>{rede.icone}</span>
                       {rede.nome}
-                    </a>
+                    </p>
                   ))}
                 </div>
               </div>
