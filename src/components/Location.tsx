@@ -26,7 +26,7 @@ export default function Location() {
                   Vila Mariana, São Paulo – SP
                 </span>
               </p>
-              <p className="flex items-center gap-3">
+              <div className="flex items-center gap-3">
                 <span className="text-barbearia-400">📞</span>
                 <p
                   // href="tel:+5511999990000"
@@ -34,7 +34,7 @@ export default function Location() {
                 >
                   (11) 99999-0000
                 </p>
-              </p>
+              </div>
               <div className="flex items-center gap-3">
                 <span className="text-barbearia-400">✉️</span>
                 <p

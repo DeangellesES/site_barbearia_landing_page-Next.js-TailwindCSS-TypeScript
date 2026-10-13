@@ -24,7 +24,7 @@ export default function Header() {
           className="flex items-center gap-2 font-display text-xl font-bold tracking-wide text-barbearia-100"
         >
           <span className="text-barbearia-400">✦</span>
-          Navalha de Ouro
+          Barbearia de Ouro
         </a>
 
         {/* Menu desktop */}

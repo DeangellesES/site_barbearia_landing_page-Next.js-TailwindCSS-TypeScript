@@ -22,9 +22,9 @@ export default function Hero() {
           </span>
 
           <h1 className="mt-6 font-display text-4xl leading-tight font-bold text-white sm:text-5xl md:text-6xl">
-            Seu estilo,
+            Mais que um corte,
             <br />
-            afiado na <span className="text-barbearia-400">navalha</span>.
+            uma marca de <span className="text-barbearia-400">estilo.</span>
           </h1>
 
           <p className="mt-6 max-w-md text-base leading-relaxed text-barbearia-200">
